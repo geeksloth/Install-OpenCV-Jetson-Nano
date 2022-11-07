@@ -1,5 +1,5 @@
 # Install-OpenCV-Jetson-Nano
-This script helps you to install the OpenCV-GPU 4.6.0 on your Jetson Nano with a few steps. Just clone, run, and take your time!
+This script helps you to install the OpenCV-GPU 4.6.0 (and other specific version) on your Jetson Nano with a few steps. Just clone, run, and take your time!
 
 ## Prerequisite
 OpenCV 4.5.2 and above needs more memory to build the sources. You are better to enlarge the swap memory by following steps
