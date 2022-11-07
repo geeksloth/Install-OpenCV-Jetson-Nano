@@ -4,7 +4,7 @@ This script helps you to install the OpenCV-GPU 4.6.0 (and other specific versio
 ## Prerequisite
 OpenCV 4.5.2 and above needs more memory to build the sources. You are better to enlarge the swap memory by following steps
 1. ```sudo apt-get install nano dphys-swapfile && sudo reboot```  
-2. then modify the ```sudo nano /sbin/dphys-swapfile``` at the line ```CONF_MAXSWAP``` to 4096
+2. modify the ```sudo nano /sbin/dphys-swapfile``` at the line ```CONF_MAXSWAP``` to 4096
 3. do the previous bullet to the```sudo nano /etc/dphys-swapfile```
 4. check the swap allocation by ```free -m```. OpenCV 4.5.1 and below needs 4026, 4.5.2 and above needs 6074 kb
 5. if you not sure about this step, I recommend to see the ***Enlarte memory swap*** topic at https://qengineering.eu/install-opencv-4.5-on-jetson-nano.html for more clearier explanation with figures, and then comeback to do the next following steps.
