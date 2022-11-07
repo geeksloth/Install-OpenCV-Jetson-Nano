@@ -1,5 +1,5 @@
 # Install-OpenCV-Jetson-Nano
-This script allows you to install the OpenCV-GPU on your Jetson Nano with a single step. Just clone, run, and take your time!
+This script helps you to install the OpenCV-GPU on your Jetson Nano with a few steps. Just clone, run, and take your time!
 
 ## Prerequisite
 OpenCV 4.5.2 and above needs more memory to build the sources. You are better to enlarge the swap memory by following steps
@@ -10,14 +10,13 @@ OpenCV 4.5.2 and above needs more memory to build the sources. You are better to
 5. if you not sure about this step, I recommend to see the ***Enlarte memory swap*** topic at https://qengineering.eu/install-opencv-4.5-on-jetson-nano.html for more clearier explanation with figures, and then comeback to do the next following steps.
 
 ## Installation
-1. Clone this repository
+Clone this repository
 ```bash
 git clone https://github.com/geeksloth/install-opencv-jetson-nano.git && cd install-opencv-jetson-nano
 ```
-2. Add an execution permission, run the script, and go to bed for 3 hours
+Add an execution permission, run the script, and go to bed for 3 hours
 ```bash
-sudo chmod 755 OpenCV.sh
-./OpenCV.sh
+sudo chmod 755 OpenCV.sh && ./OpenCV.sh
 ```
 
 ## Optional finalization
